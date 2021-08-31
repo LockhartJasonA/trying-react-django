@@ -1,0 +1,10 @@
+db:
+  image: mysql
+  command: --default-authentication-plugin=mysql_native_password
+  environment:
+    MYSQL_ROOT_PASSWORD: vegeta
+    MYSQL_DATABASE: db_demo
+    MYSQL_USER: infamouslight
+    MYSQL_PASSWORD: vegeta
+  ports:
+    - "3306:3306"

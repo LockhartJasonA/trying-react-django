@@ -1,0 +1,4 @@
+//ActionTypes
+export const FETCH_NODES = 'FETCH_NODES';
+export const FETCH_NODES_PENDING = 'FETCH_NODES_PENDING';
+export const FETCH_NODES_FULFILLED = 'FETCH_NODES_FULFILLED';
